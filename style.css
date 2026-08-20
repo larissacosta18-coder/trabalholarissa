@@ -6,14 +6,13 @@
 }
 
 body {
-  background-color: #0d47a1;
   background: linear-gradient(135deg, #008542 0%, #ff7900 100%);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* Cabeçalho centralizado */
+/* Cabeçalho no meio */
 .cabecalho {
   background-color: #006030;
   color: white;
@@ -48,10 +47,10 @@ main {
   align-items: center;
 }
 
-/* Títulos maiores e centralizados */
+/* Títulos maiores e no meio */
 .subtitulo-principal {
   color: #fff8e7;
-  font-size: 24px;
+  font-size: 26px;
   text-align: center;
   margin-bottom: 30px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -59,7 +58,7 @@ main {
 
 .categoria {
   width: 100%;
-  max-width: 900px;
+  max-width: 750px;
   margin-bottom: 40px;
   display: flex;
   flex-direction: column;
@@ -70,27 +69,27 @@ main {
   font-size: 28px;
   color: #ffffff;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   background-color: #ff7900;
-  padding: 8px 25px;
-  border-radius: 15px;
-  border: 3px solid #fff8e7;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: 4px solid #fff8e7;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 .cartoes {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 25px;
   width: 100%;
   align-items: center;
 }
 
-/* Layout horizontal do Card: Foto na lateral e texto no meio */
+/* Cards com borda creme clara */
 .cartao {
   width: 100%;
   max-width: 650px;
-  height: 180px;
+  height: 200px;
 }
 
 .cartao-interno {
@@ -109,16 +108,16 @@ main {
   position: absolute;
   width: 100%;
   height: 100%;
-  padding: 15px;
+  padding: 20px;
   background-color: #ffffff;
-  border: 4px solid #fff8e7; /* Borda creme clara */
-  border-radius: 15px;
+  border: 5px solid #fff8e7; /* Borda Creme Clara */
+  border-radius: 18px;
   backface-visibility: hidden;
   display: flex;
-  flex-direction: row; /* Imagem na esquerda, texto ao lado */
+  flex-direction: row;
   align-items: center;
   gap: 20px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .cartao-verso {
@@ -127,25 +126,25 @@ main {
 }
 
 .cartao-imagem {
-  width: 130px;
-  height: 130px;
-  border-radius: 10px;
+  width: 140px;
+  height: 140px;
+  border-radius: 12px;
   object-fit: cover;
-  border: 2px solid #008542;
+  border: 3px solid #008542;
 }
 
-/* Texto centralizado dentro do espaço do card */
+/* Texto centralizado na página e nos cards */
 .texto-card {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .texto-card p {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.4;
   color: #222;
 }
