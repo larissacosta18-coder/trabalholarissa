@@ -1,287 +1,34 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Confere Aí - Guia da Irlanda</title>
-  
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
-
-    body {
-      background: linear-gradient(135deg, #008542 0%, #ff7900 100%);
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-
-    /* Cabeçalho centralizado */
-    .cabecalho {
-      background-color: #006030;
-      color: white;
-      padding: 25px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 15px;
-      border-bottom: 5px solid #fff8e7;
-    }
-
-    .cabecalho h1 {
-      font-size: 32px;
-      text-align: center;
-    }
-
-    .cabecalho-link {
-      color: white;
-      font-weight: bold;
-      text-decoration: none;
-      background-color: #ff7900;
-      padding: 10px 20px;
-      border-radius: 20px;
-      border: 2px solid #fff8e7;
-    }
-
-    main {
-      flex: 1;
-      padding: 30px 15px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    /* Títulos maiores no meio da página */
-    .subtitulo-principal {
-      color: #fff8e7;
-      font-size: 26px;
-      text-align: center;
-      margin-bottom: 30px;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    }
-
-    .categoria {
-      width: 100%;
-      max-width: 750px;
-      margin-bottom: 40px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .categoria h2 {
-      font-size: 28px;
-      color: #ffffff;
-      text-align: center;
-      margin-bottom: 25px;
-      background-color: #ff7900;
-      padding: 10px 30px;
-      border-radius: 20px;
-      border: 4px solid #fff8e7;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    }
-
-    .cartoes {
-      display: flex;
-      flex-direction: column;
-      gap: 25px;
-      width: 100%;
-      align-items: center;
-    }
-
-    /* Tamanho e estrutura dos cards */
-    .cartao {
-      width: 100%;
-      max-width: 650px;
-      height: 200px;
-    }
-
-    .cartao-interno {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      transition: transform 0.8s;
-      transform-style: preserve-3d;
-    }
-
-    .cartao:hover .cartao-interno {
-      transform: rotateY(180deg);
-    }
-
-    /* Estilo com borda Creme Clara */
-    .cartao-frente, .cartao-verso {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      padding: 20px;
-      background-color: #ffffff;
-      border: 5px solid #fff8e7; /* Borda Creme */
-      border-radius: 18px;
-      backface-visibility: hidden;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      gap: 20px;
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    }
-
-    .cartao-verso {
-      transform: rotateY(180deg);
-      background-color: #fff3e0;
-    }
-
-    .cartao-imagem {
-      width: 140px;
-      height: 140px;
-      border-radius: 12px;
-      object-fit: cover;
-      border: 3px solid #008542;
-    }
-
-    /* Textos no meio dos cards */
-    .texto-card {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-      gap: 10px;
-    }
-
-    .texto-card p {
-      font-size: 16px;
-      line-height: 1.4;
-      color: #222;
-    }
-
-    footer {
-      background-color: #006030;
-      color: #fff8e7;
-      text-align: center;
-      padding: 20px;
-      font-weight: bold;
-      font-size: 16px;
-      border-top: 5px solid #fff8e7;
-    }
-  </style>
-</head>
-<body>
-
-  <header class="cabecalho">
-    <h1>Confere Aí: O Guia da Irlanda ☘️</h1>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css"/>
+   
+    <title>Fiat 147 1978</title>
+   
+  </head>
+  <body>
+    <header>
+       <h1>Uma história sobre >fiat 147</h1>
     <nav>
-      <a href="#" class="cabecalho-link">Início</a>
+      <a heref= "#">Inicio</a>
     </nav>
-  </header>
 
-  <main>
-    <h2 class="subtitulo-principal">Passe o mouse nos cards para descobrir a verdade!</h2>
-
-    <!-- SEÇÃO 1: FOLCLORE -->
-    <section class="categoria">
-      <h2>Folclore & Lendas Celtas</h2>
-      <div class="cartoes">
-
-        <!-- Card 1: Foto na Esquerda -->
-        <article class="cartao">
-          <div class="cartao-interno">
-            <div class="cartao-frente">
-              <img src="http://googleusercontent.com/image_collection/image_retrieval/10337751355017631926_0" alt="Duende" class="cartao-imagem">
-              <div class="texto-card">
-                <p><strong>Mito:</strong> Leprechauns são duendes amigáveis e fofinhos.</p>
-                <p>Eles adoram dar seu pote de ouro para qualquer um que chegar no fim do arco-íris!</p>
-              </div>
-            </div>
-            <div class="cartao-verso">
-              <img src="http://googleusercontent.com/image_collection/image_retrieval/10337751355017631926_0" alt="Duende" class="cartao-imagem">
-              <div class="texto-card">
-                <p><strong>Verdade:</strong> Eles são criaturas bem ranzinzas e trapaceiras!</p>
-                <p>Usam truques e ilusões para enganar quem tenta pegar o ouro deles.</p>
-              </div>
+    </header>
+    <main>
+      <h2>Fiat 147 ano 1978</h2>
+      <section>
+        <article>
+          <div>
+            <div>
+              <img src="https://www.canaldapeca.com.br/blog/wp-content/uploads/2018/08/fiat-147-dianteira.jpg&quot; class="img-Fiat-147">
+           <p>Tudo começou na Itália com o Fiat 127. Para estrear sua fábrica em Betim (MG) em 1976, a Fiat adaptou o modelo europeu à dura realidade das estradas brasileiras. O carro foi batizado de Fiat 147 e nasceu com uma missão clara: desbancar o reinado do Fusca e da Brasília, oferecendo modernidade em tempos de crise global do petróleo.</p>
             </div>
           </div>
         </article>
-
-        <!-- Card 2: Foto na Direita (Intercalado) -->
-        <article class="cartao">
-          <div class="cartao-interno">
-            <div class="cartao-frente">
-              <div class="texto-card">
-                <p><strong>Mito:</strong> O símbolo oficial do país é o trevo de 4 folhas.</p>
-                <p>Todo mundo usa o de 4 folhas como principal amuleto no feriado.</p>
-              </div>
-              <img src="http://googleusercontent.com/image_collection/image_retrieval/1331965514708835388_0" alt="Trevo" class="cartao-imagem">
-            </div>
-            <div class="cartao-verso">
-              <div class="texto-card">
-                <p><strong>Verdade:</strong> O símbolo oficial é uma Harpa Celta!</p>
-                <p>E o trevo tradicional de São Patrício (Shamrock) tem apenas 3 folhas.</p>
-              </div>
-              <img src="http://googleusercontent.com/image_collection/image_retrieval/1331965514708835388_0" alt="Trevo" class="cartao-imagem">
-            </div>
-          </div>
-        </article>
-
-      </div>
-    </section>
-
-    <!-- SEÇÃO 2: FESTIVAIS -->
-    <section class="categoria">
-      <h2>Festivais & Tradições</h2>
-      <div class="cartoes">
-
-        <!-- Card 3: Foto na Esquerda -->
-        <article class="cartao">
-          <div class="cartao-interno">
-            <div class="cartao-frente">
-              <img src="https://images.unsplash.com/photo-1584447128309-b237400f07bf?w=500" alt="Desfile St Patricks" class="cartao-imagem">
-              <div class="texto-card">
-                <p><strong>Mito:</strong> A festa com desfiles na rua nasceu na própria Irlanda.</p>
-                <p>Desde o começo eles comemoravam com grandes festivais públicos.</p>
-              </div>
-            </div>
-            <div class="cartao-verso">
-              <img src="https://images.unsplash.com/photo-1584447128309-b237400f07bf?w=500" alt="Desfile St Patricks" class="cartao-imagem">
-              <div class="texto-card">
-                <p><strong>Verdade:</strong> O feriado era estritamente religioso por lá!</p>
-                <p>Os grandes desfiles começaram com imigrantes irlandeses nos EUA.</p>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <!-- Card 4: Foto na Direita (Intercalado) -->
-        <article class="cartao">
-          <div class="cartao-interno">
-            <div class="cartao-frente">
-              <div class="texto-card">
-                <p><strong>Mito:</strong> Música tradicional só toca em museus antigos.</p>
-                <p>A galera mais jovem não escuta os instrumentos antigos da Irlanda.</p>
-              </div>
-              <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=500" alt="Música Tradicional" class="cartao-imagem">
-            </div>
-            <div class="cartao-verso">
-              <div class="texto-card">
-                <p><strong>Verdade:</strong> A música ao vivo rola direto nos pubs!</p>
-                <p>Pessoas de todas as idades juntam violinos e flautas para tocar junto.</p>
-              </div>
-              <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=500" alt="Música Tradicional" class="cartao-imagem">
-            </div>
-          </div>
-        </article>
-
-      </div>
-    </section>
-
-  </main>
-
-  <footer>
-    <p>Projeto de Pesquisa Escolar - Feito por [Seu Nome] - 2026</p>
-  </footer>
-
-</body>
+      </section>
+      <footer>Pojeto feito pelo Jhonatan Bassi</footer>
+     
+    </main>
+   
+  </body>
 </html>
